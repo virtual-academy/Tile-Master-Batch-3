@@ -8,6 +8,7 @@ const Router = () => {
       <Routes>
       <Route path='/' element={<Pages.Home/>}/>
       <Route path='/contact-us' element={<Pages.Contactus/>}/>
+      <Route path='/add-product' element={<Pages.Product/>}/>
       </Routes>
     </div>
   )
